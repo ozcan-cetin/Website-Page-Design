@@ -1,3 +1,9 @@
+@import './abstracts/mixin', "./abstracts/variable";
+
+@import "./components/footer", "./components/main", "./components/nav";
+
+@import "./pages/about", "./pages/home", "./pages/services";
+
 *{
     margin: 0;
     padding: 0;
