@@ -1,0 +1,11 @@
+.middle{
+    height: 80vh;
+    background-image: url(../img/showcase.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}

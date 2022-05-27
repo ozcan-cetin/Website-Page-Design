@@ -1,7 +1,39 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #bd2fff;
+  height: 10vh;
+}
+.navbar span {
+  color: #bd2fff;
+}
+.navbar li {
+  display: inline;
+  padding: 2rem;
+}
+
+.middle {
+  height: 80vh;
+  background-image: url(../img/showcase.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  color: #eee;
+  background-color: #272727;
 }
 
 /*# sourceMappingURL=style.css.map */

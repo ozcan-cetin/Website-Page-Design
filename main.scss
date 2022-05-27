@@ -1,6 +1,6 @@
 @import './abstracts/mixin', "./abstracts/variable";
 
-@import "./components/footer", "./components/main", "./components/nav";
+@import "./components/middle", "./components/footer", "./components/nav";
 
 @import "./pages/about", "./pages/home", "./pages/services";
 
@@ -8,5 +8,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    color:$text-color ;
+    background-color:$primary-color;
 }
 
