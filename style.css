@@ -1,3 +1,39 @@
+.footer {
+  width: 100vw;
+  height: 50vh;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+}
+.footer_first {
+  border: 1px solid green;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_second {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30vh;
+}
+.footer_second--img {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+}
+
+.footer_last {
+  border: 1px solid orange;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -14,7 +50,7 @@
 }
 
 .middle {
-  height: 80vh;
+  height: 40vh;
   background-image: url(../img/showcase.jpg);
   background-size: cover;
   background-position: center;
@@ -34,6 +70,10 @@
 body {
   color: #eee;
   background-color: #272727;
+}
+
+.container {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
