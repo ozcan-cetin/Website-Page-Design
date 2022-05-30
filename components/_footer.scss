@@ -1,8 +1,9 @@
-.footer_last{
-    // border: 1px solid orange;
-    height: 10vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.footer{
+    @include flex;
+    height: 15vh;
+    border: 1px solid red;
+    img{
+        width: 170px;
+        margin-top: .5rem;
+    }
 }
