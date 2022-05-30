@@ -52,6 +52,31 @@
   color: #eee;
 }
 
+.about_middle {
+  height: 65vh;
+  display: flex;
+  background-color: #F4F4F4;
+  font-size: 0.9rem;
+  color: #272727;
+  padding: 2rem;
+  gap: 4rem;
+}
+.about_middle--left {
+  width: 70%;
+}
+.about_middle--left .block {
+  background-color: #272727;
+  color: #eee;
+  padding: 1rem;
+}
+.about_middle--right {
+  height: max-content;
+  width: 30%;
+  background-color: #272727;
+  color: #eee;
+  padding: 1rem;
+}
+
 .middle {
   height: 35vh;
   background-image: url(../img/showcase.jpg);
