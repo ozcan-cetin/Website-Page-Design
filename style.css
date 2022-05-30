@@ -4,7 +4,6 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  border: 1px solid red;
   font-weight: 800;
 }
 .subscribe button {
@@ -12,10 +11,12 @@
   color: #eee;
   width: 5rem;
   height: 2rem;
+  cursor: pointer;
+  border: none;
 }
 .subscribe input {
   height: 2rem;
-  width: 15vw;
+  width: 20vw;
   outline: none;
 }
 
@@ -25,7 +26,6 @@
   justify-content: center;
   align-items: center;
   height: 15vh;
-  border: 1px solid red;
 }
 .footer img {
   width: 170px;
@@ -36,7 +36,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #A9508B;
+  border-bottom: 3px solid #A9508B;
   height: 10vh;
   padding: 1rem;
 }
@@ -51,13 +51,16 @@
   text-decoration: none;
   color: #eee;
 }
+.navbar li:first-child a {
+  color: #A9508B;
+}
 
 .about_middle {
   height: 65vh;
   display: flex;
   background-color: #F4F4F4;
   font-size: 0.9rem;
-  color: #272727;
+  color: #35424A;
   padding: 2rem;
   gap: 4rem;
 }
@@ -65,14 +68,14 @@
   width: 70%;
 }
 .about_middle--left .block {
-  background-color: #272727;
+  background-color: #35424A;
   color: #eee;
   padding: 1rem;
 }
 .about_middle--right {
   height: max-content;
   width: 30%;
-  background-color: #272727;
+  background-color: #35424A;
   color: #eee;
   padding: 1rem;
 }
@@ -93,9 +96,8 @@
   height: 30vh;
   display: flex;
   flex-direction: column;
-  border: 1px solid green;
   background-color: #F4F4F4;
-  color: #272727;
+  color: #35424A;
 }
 .logo_first {
   display: flex;
@@ -119,6 +121,54 @@
   text-align: center;
 }
 
+.main {
+  display: flex;
+  padding: 1rem;
+  background-color: #F4F4F4;
+  gap: 3rem;
+  height: 65vh;
+}
+.main_left {
+  width: 70%;
+  color: #35424A;
+}
+.main_left .text {
+  background-color: #E6E6E6;
+  margin-top: 0.5rem;
+  padding: 1rem;
+}
+.main_right {
+  width: 30%;
+  height: max-content;
+  padding: 1rem 0.5rem;
+  background-color: #35424A;
+  color: #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main_right input {
+  width: 25vw;
+  height: 2rem;
+  outline: none;
+  padding: 0.5rem;
+}
+.main_right textarea {
+  width: 25vw;
+  height: 4rem;
+  outline: none;
+  padding: 0.5rem;
+}
+.main_right button {
+  cursor: pointer;
+  width: 60px;
+  height: 2rem;
+  background-color: #F16529;
+  color: #eee;
+  border: none;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -127,7 +177,8 @@
 
 body {
   color: #eee;
-  background-color: #272727;
+  background-color: #35424A;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {

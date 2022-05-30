@@ -1,54 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="navbar">
-          <div class="navbar_left">
-            <h1><span>Clarusway</span> Web Design</h1>
-          </div>
-          <div class="navbar_right">
-            <ul>
-              <li><a href="../index.html">HOME</a></li>
-              <li><a href="../about.html">ABOUT</a></li>
-              <li><a href="../services.html">SERVICES</a></li>
-            </ul>
-          </div>
+      <div class="navbar">
+        <div class="navbar_left">
+          <h1><span>Clarusway</span> Web Design</h1>
         </div>
-       
-        <div class="subscribe">
-          <div class="subscribe_left">
-            <p>Subscribe To Our Newsletter</p>
-          </div>
-          <div class="subscribe_right">
-            <input type="email" placeholder="Enter Email..." />
-            <button type="submit">Subscribe</button>
-          </div>
+        <div class="navbar_right">
+          <ul>
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./about.html">ABOUT</a></li>
+            <li><a href="./services.html">SERVICES</a></li>
+          </ul>
         </div>
-
-        <main class="main">
-            <div class="main_left">
-            
-            </div>
-            <div class="main_right"></div>
-        </main>
-  
-        
-  
-        <footer class="footer">
-          <div class="footer_first">
-            <p>Clarusway Web Design, Copyright @ 2020</p>
-          </div>
-          <div class="footer_second">
-              <img src="../img/clarusway_logo.png" alt="clarusway logo" />
-          </div>
-        </footer>
       </div>
-</body>
+
+      <div class="subscribe">
+        <div class="subscribe_left">
+          <p>Subscribe To Our Newsletter</p>
+        </div>
+        <div class="subscribe_right">
+          <input type="email" placeholder="Enter Email..." />
+          <button type="submit">Subscribe</button>
+        </div>
+      </div>
+
+      <main class="main">
+        <div class="main_left">
+          <h4>Services</h4>
+          <br />
+          <div class="text">
+            <h4>Website Design</h4>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
+              enim.
+            </p>
+            <br />
+            Pricing: $1,000 - $3,000
+          </div>
+          <div class="text">
+            <h4>Website Maintenance</h4>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
+              enim.
+            </p>
+            <br />
+            Pricing: $250 per month
+          </div>
+          <div class="text">
+            <h4>Website Hosting</h4>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
+              enim.
+            </p>
+            <br />
+            Pricing: $25 per month
+          </div>
+        </div>
+        <div class="main_right">
+          <form action="#">
+            <h4>Get A Quote</h4>
+            <br />
+            <div class="input">
+              <label for="Name">Name</label><br>
+              <input type="text" placeholder="Name" />
+            </div>
+            <div class="input">
+              <label for="Email">Email</label><br>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email Address"
+              />
+            </div>
+            <div class="input">
+              <label for="Message">Message</label><br>
+              <textarea
+                name="Message"
+                id="message"
+                placeholder="Message"
+              ></textarea>
+            </div>
+
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="footer_first">
+          <p>Clarusway Web Design, Copyright @ 2020</p>
+        </div>
+        <div class="footer_second">
+          <img src="../img/clarusway_logo.png" alt="clarusway logo" />
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>

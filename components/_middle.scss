@@ -4,17 +4,19 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    border:1px solid red;
+    // border:1px solid red;
     font-weight: 800;
     button{
         background-color: #F16529;
         color: $text-color;
         width: 5rem;
         height: 2rem;
+        cursor: pointer;
+        border: none;
     }
     input{
         height: 2rem;
-        width: 15vw;
+        width: 20vw;
         outline: none;
     }
 }

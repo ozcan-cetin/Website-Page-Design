@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid $secondary-color;
+    border-bottom: 3px solid $secondary-color;
     height: 10vh;
     padding: 1rem;
     span{
@@ -16,4 +16,8 @@
         text-decoration: none;
         color: $text-color;
     }
+    li:first-child a{
+        color: $secondary-color;
+    }
+    
 }
